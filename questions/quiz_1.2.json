@@ -1,0 +1,53 @@
+[ 
+    {
+        "question": "Hány szürke árnyalatot használ az a digitális kép, ahol m=4?",
+        "type": "numeric",
+        "precision": 1,
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "type": "default",
+                "feedback": "m=4 esetén a kép 4 féle szürke árnyalatból épül fel."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis: A bináris képek csak 2 színárnyalatot használnak.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Ahogy a név is sugallja, a bináris képek, csak két színárnyalatot használnak."
+            }
+        ]
+    },
+    {
+        "question": "Bináris képek esetén az alábbiak közül, melyik halmaz fogja tartalmazni az előtér pixeleket?",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "$A=\\{p \\in X|f(p)=1\\}$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$A=\\{p \\in X|f(p)=0\\}$",
+                "correct": false,
+                "feedback": "Ez a halmaz a háttérpixeleket tartalmazza."
+            }
+        ]
+    }
+]
