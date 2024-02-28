@@ -39,12 +39,12 @@
         "answer_cols": 2,
         "answers": [
             {
-                "answer": "$A=\\{p \\in X|f(p)=1\\}$",
+                "answer": "A=pinX|f(p)=1",
                 "correct": true,
                 "feedback": "Helyes."
             },
             {
-                "answer": "$A=\\{p \\in X|f(p)=0\\}$",
+                "answer": "A=pinX|f(p)=0",
                 "correct": false,
                 "feedback": "Ez a halmaz a háttérpixeleket tartalmazza."
             }
