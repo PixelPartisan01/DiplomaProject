@@ -44,7 +44,7 @@
                 "feedback": "Helyes."
             },
             {
-                "answer": "$A=\\{p \\in X|f(p)=0\\}$",
+                "answer": "$A=\\{p \\in X|f(p)=0 \\}$",
                 "correct": false,
                 "feedback": "Ez a halmaz a háttérpixeleket tartalmazza."
             }
