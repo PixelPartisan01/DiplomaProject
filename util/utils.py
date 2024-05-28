@@ -3,8 +3,9 @@ import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
 import matplotlib.pyplot as plt
+import ipywidgets as widgets
+import random
 import cv2
-
 
 def browseImages(self):
     window = tk.Tk()
@@ -32,5 +33,21 @@ def showGrayscaleImage(self, image):
     else:
         raise ValueError('Image is not converted to graycsale.')
 
+def start(main):
+    button = widgets.Button(
+                        description=' START',
+                        disabled=False,
+                        button_style='success', # 'success', 'info', 'warning', 'danger' or ''
+                        icon='play'
+                        )
+    button.on_click(main)
 
+    box_layout = widgets.Layout(display='flex',
+                                flex_flow='column',
+                                align_items='center',
+                                width='100%')
+    
+    box = widgets.HBox(children=[button], layout=box_layout)
+
+    return box
 
