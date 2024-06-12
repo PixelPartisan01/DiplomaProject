@@ -7,8 +7,9 @@ import ipywidgets as widgets
 import random
 import cv2
 import numpy as np
+import os
 
-def browseImages(self):
+def browse_images(self):
     window = tk.Tk()
     window.wm_attributes('-topmost', 1)
     window.withdraw()
@@ -19,20 +20,22 @@ def browseImages(self):
                                                filetypes = (("Image files", "*.png *.PNG *.jpg *.JPG *.jpeg *.JPEG"),
                                                ("All files", "*.*")))
 
-    if self.filename == None:
-        print("No File Selected")
-        window.destroy()
+    if self.filename is None: # or not os.path.exists(self.filename):
+        print("Image file not selected or does not exist.")
+        exit(1)
     else:
         return self.filename
         window.destroy()
 
-def showGrayscaleImage(self, image):
+
+def show_grayscale_image(self, image):
     if(len(image.shape) < 3):
         plt.figure()
         plt.axis("off")
         plt.imshow(image, cmap='Greys_r')
     else:
         raise ValueError('Image is not converted to graycsale.')
+
 
 def start(main):
     button = widgets.Button(
@@ -105,8 +108,5 @@ def generate_input():
     root.mainloop()
     kernel = (kernel + 1) * 127
     kernel = np.uint8(kernel)
-    
-    #print(kernel)
-    #print(input_image)
 
     return input_image, kernel
