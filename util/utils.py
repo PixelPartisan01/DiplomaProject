@@ -110,3 +110,7 @@ def generate_input():
     kernel = np.uint8(kernel)
 
     return input_image, kernel
+
+
+def nothing(x):
+    pass
