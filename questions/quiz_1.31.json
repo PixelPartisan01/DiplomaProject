@@ -1,0 +1,58 @@
+[ 
+    {
+        "question": "Igaz vagy Hamis? A thresholding csak bináris (fekete-fehér) képek létrehozására használható.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "Bár a módszer jól használható képek binarizálására, több küszöbérték felhasználásával létrehozhatunk olyan képeket is, amelyek nem csak kétféle világossági értéket tartalmaznak ."
+            },
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            }
+        ]
+    },
+    {
+        "question": "Válaszd ki az összes állítást, ami teljesül a következő kódrészletre: <center><code>cv2.calcHist([image],[2],None,[256],[0,256])</code></center>",
+        "type": "many_choice",
+        "answer_cols": 3,
+        "answers": [
+            {
+                "answer": "A függvény legenerálja a kép hisztogramját.",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "A függvény a kép piros színcsatornáját veszi, csak figyelembe.",
+                "correct": true,
+                "feedback": ""
+            },            
+            {
+                "answer": "A függvény használ maszokt.",
+                "correct": false,
+                "feedback": "Hamis. Figyeld meg a $3.$ paramétert!"
+            }
+        ]
+    },
+    {
+        "question": "Egyszerre hány pixelérték előfordulásnak számát veszi figyelembe az alábbi <i>calcHist</i> függvény? <center><code>cv2.calcHist([image],[2],None,[64],[0,256])</code></center>",
+        "type": "numeric",
+        "precision": 1,
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "type": "default",
+                "feedback": "A hisztogrammot $64$ csoportra osztjuk fel. Mivel $256$ értékünk van összesen, így azt $64$ fele osztva azt kapjuk, hogy egy binben $\\frac{256}{64} = 4$ pixelérték előfordulási száma lett figyelembe véve."
+            }
+        ]
+    }
+]
