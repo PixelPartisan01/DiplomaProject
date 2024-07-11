@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 import os
 
+
 def browse_images(self):
     window = tk.Tk()
     window.wm_attributes('-topmost', 1)
@@ -17,10 +18,10 @@ def browse_images(self):
     self.filename = filedialog.askopenfilename(parent=window,
                                                initialdir="test_img",
                                                title="Select File",
-                                               filetypes = (("Image files", "*.png *.PNG *.jpg *.JPG *.jpeg *.JPEG"),
-                                               ("All files", "*.*")))
+                                               filetypes=(("Image files", "*.png *.PNG *.jpg *.JPG *.jpeg *.JPEG"),
+                                                          ("All files", "*.*")))
 
-    if self.filename is None: # or not os.path.exists(self.filename):
+    if self.filename is None:  # or not os.path.exists(self.filename):
         print("Image file not selected or does not exist.")
         exit(1)
     else:
@@ -29,7 +30,7 @@ def browse_images(self):
 
 
 def show_grayscale_image(self, image):
-    if(len(image.shape) < 3):
+    if (len(image.shape) < 3):
         plt.figure()
         plt.axis("off")
         plt.imshow(image, cmap='Greys_r')
@@ -39,27 +40,26 @@ def show_grayscale_image(self, image):
 
 def start(main):
     button = widgets.Button(
-                        description=' START',
-                        disabled=False,
-                        button_style='success', # 'success', 'info', 'warning', 'danger' or ''
-                        icon='play'
-                        )
+        description=' START',
+        disabled=False,
+        button_style='success',  # 'success', 'info', 'warning', 'danger' or ''
+        icon='play'
+    )
     button.on_click(main)
 
     box_layout = widgets.Layout(display='flex',
                                 flex_flow='column',
                                 align_items='center',
                                 width='100%')
-    
+
     box = widgets.HBox(children=[button], layout=box_layout)
 
     return box
 
 
 def generate_input():
-
-    kernel = np.array([[0 for x in range(3)] for y in range(3)], dtype="int")
-    input_image = np.array([[0 for x in range(8)] for y in range(8)], dtype="uint8")
+    kernel = np.array([[0 for x in range(3)] for y in range(3)], dtype=np.uint8)
+    input_image = np.array([[0 for x in range(8)] for y in range(8)], dtype=np.uint8)
 
     root = tk.Tk()
     root.title("Bemeneti Kép")
@@ -106,8 +106,8 @@ def generate_input():
             button.grid(row=row, column=col)
 
     root.mainloop()
-    kernel = (kernel + 1) * 127
-    kernel = np.uint8(kernel)
+
+    #kernel = np.uint8(kernel)
 
     return input_image, kernel
 

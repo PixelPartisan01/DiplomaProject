@@ -1,0 +1,107 @@
+[ 
+    {
+        "question": "Igaz vagy Hamis? A felüláteresztő szűrők egy megadott frekvencián felül minden frekvenciát megtartanak.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Minek a jele az $ \\omega $",
+        "type": "many_choice",
+        "answer_cols": 3,
+        "answers": [
+            {
+                "answer": "A vágási frekvenciának.",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "A kép egy koordinátájának",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "A kép origójának",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Melyik képlet szükséges a Butterworth felüláteresző szűrő megvalósításához?",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "$H(u,v) = \\frac{1}{1+ \\left( \\frac{\\omega_0}{\\sigma(u,v)} \\right)^{2n} }$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$H(u,v) = \\frac{1}{1+ \\left( \\frac{\\sigma(u,v)}{\\omega_0} \\right)^{2n} }$",
+                "correct": false,
+                "feedback": "Butterworth, de ezt a képletet az aluláteresztő szűrőhöz használjuk."
+            },
+            {
+                "answer": "$H(u,v) = 1 - e^{\\frac{- \\sigma^2 (u,v)}{2 \\omega_0^2}}$",
+                "correct": false,
+                "feedback": "Felüláteresztő, de nem Butterwort szűrő."
+            },
+            {
+                "answer": "$H(u,v) = e^{\\frac{- \\sigma^2 (u,v)}{2 \\omega_0^2}}$",
+                "correct": false,
+                "feedback": "Nem is Butterwort és nem is felüláteresztő. ( ͡° ͜ʖ ͡°) " 
+            }
+        ]
+    },
+    {
+        "question": "Melyik függvény adja vissza a bemenet 2D-s Fourier transzformáltját?",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "<center><code>np.fft.fft2(...)</code></center>",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "<center><code>np.fft.ifft2(...)</code></center>",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "<center><code>np.fft.fftshift(...)</code></center>",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? A felüláteresző szűrők a képek elmosásához, az aluláteresztők pedig, éldetektáláshoz használhatóak.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            }
+        ]
+    }
+]
