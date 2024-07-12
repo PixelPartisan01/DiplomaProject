@@ -1,0 +1,56 @@
+[ 
+    {
+        "question": "Mely képletek segítenek eldönteni, hogy melyik irányba folytassuk a vizsgálatot, amikor belső határkövetést kívánunk végrehajtani.",
+        "type": "many_choice",
+        "answer_cols": 3,
+        "answers": [
+            {
+                "answer": "$(dir+7)\\mod 8 $",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$(dir+6)\\mod 8 $",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$(dir+8)\\mod 8 $",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$(dir+9)\\mod 8 $",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$(dir+7)\\mod 8 - 1$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$(dir+6)\\mod 8 - 1$",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? Ha $P_n == P_1$ és $P_{n-1} == P_0$ körbeértünk",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    }
+]

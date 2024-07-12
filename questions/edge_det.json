@@ -1,0 +1,101 @@
+[ 
+    {
+        "question": "Milyen súlyok találhatóak egy  $5 \\times 5$-ös Laplace kernelben?",
+        "type": "many_choice",
+        "answer_cols": 5,
+        "answers": [
+            {
+                "answer": "$16$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$-4$",
+                "correct": false,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$-40$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$-16$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$4$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$40$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$0$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$2$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$-2$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$-1$",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "$1$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$12$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$-12$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$-24$",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "$-24$",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? A Robinson iránytű a Prewitt operátor kerneljét forgatja el 8 irányba.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "A Sobel operátor kerneljét használja fel, nem a Prewitt kernelt."
+            }
+        ]
+    }
+]
