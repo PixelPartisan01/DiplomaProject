@@ -97,5 +97,22 @@
                 "feedback": "A Sobel operátor kerneljét használja fel, nem a Prewitt kernelt."
             }
         ]
+    },
+    {
+        "question": "Igaz vagy Hamis? Helyesen hívtuk meg a következő függvényt: <br><br> <center><code>cv2.Laplacian(blured_img, cv2.CV_8U , ksize=4)</code></center>",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "A kernel méretének egy páratlan egész számot kell megadnunk."
+            }
+        ]
     }
 ]

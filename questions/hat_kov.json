@@ -37,7 +37,7 @@
         ]
     },
     {
-        "question": "Igaz vagy Hamis? Ha $P_n == P_1$ és $P_{n-1} == P_0$ körbeértünk",
+        "question": "Igaz vagy Hamis? Ha $P_n == P_1$ és $P_{n-1} == P_0$ körbeértünk.",
         "type": "many_choice",
         "answer_cols": 2,
         "answers": [
