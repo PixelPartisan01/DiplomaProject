@@ -1,0 +1,53 @@
+[ 
+    {
+        "question": "Igaz vagy Hamis? Címkeütközés esetén létrehozunk egy új, még nem létező címkét.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "Az ütközö címkék által jelölt régiókat összevonjuk, azáltal, hogy az egyik régió címkeértékeit felülírjuk a másik régió címkeértékeivel. Nincs szükség új címkére."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? A szignatúra a 2D-s alakzat szegélyének 1D-s leképezése.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? A Hough transzformáció elvégzéséhez a teret <i>akkumulátor cellákra</i> kell felosztanunk.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    }
+]
