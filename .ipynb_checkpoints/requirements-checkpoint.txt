@@ -1,0 +1,5 @@
+jupyterquiz==2.7.0a3 
+jupytercards 
+opencv-python
+voila
+jupyter
