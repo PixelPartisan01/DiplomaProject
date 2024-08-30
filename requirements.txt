@@ -1,5 +1,7 @@
-jupyterquiz==2.7.0a3 
-jupytercards 
+jupyterquiz 
 opencv-python
-voila
+numpy
 jupyter
+ipywidgets
+matplotlib
+scipy
