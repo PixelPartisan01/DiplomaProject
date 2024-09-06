@@ -36,5 +36,22 @@
                 "feedback": "Helytelen. Kilenc szám mediánját keressük. Ez a kilenc szám a pirossal kijelölt szám és annak szomszédai."
             }
         ]
+    },
+    {
+        "question": "Helyes-e az alábbi kódrészlet? <br><br> <center><code>dst = cv2.medianBlur(img, 7)<code></center>",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igen",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Nem",
+                "correct": false,
+                "feedback": "Pedig de :D"
+            }
+        ]
     }
 ]

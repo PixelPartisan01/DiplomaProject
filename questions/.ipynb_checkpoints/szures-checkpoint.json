@@ -1,6 +1,6 @@
 [ 
     {
-        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : $3 \\times 3$)? Kerekítsd az eredményt egész számra! $$ \\begin{matrix} 23 & 33 & 42 & 250 \\\\ 30 & 31 & 200 & 255 \\\\ 25 & 30 & \\color{red}{210} & 255 \\\\ 24 & 190 & 250 & 255 \\end{matrix} $$",
+        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : $3 \\times 3$)? Kerekítsd az eredményt egész számra! $$ \\begin{matrix} 23 & 33 & 42 & 250 \\\\ 30 & 31 & 200 & 255 \\\\ 25 & 30 & \\color{red}{210} & 255 \\\\ 24 & 190 & 250 & 255 \\end{matrix} $$",       
         "type": "numeric",
         "answers": [
             {
@@ -33,7 +33,24 @@
             },
             {
                 "type": "default",
-                "feedback": "Helytelen. Kilenc szám átlagát keressük. Ez a kilenc szám a pirossal kijelölt szám és annak szomszédai."
+                "feedback": "Helytelen. Kilenc szám mediánját keressük. Ez a kilenc szám a pirossal kijelölt szám és annak szomszédai."
+            }
+        ]
+    },
+    {
+        "question": "Helyes-e az alábbi kódrészlet? <br><br> <center><code>dst = cv2.medianBlur(img, 7)<code></center>",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igen",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Nem",
+                "correct": false,
+                "feedback": "Pedig de :D"
             }
         ]
     }

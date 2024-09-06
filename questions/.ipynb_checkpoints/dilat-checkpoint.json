@@ -1,0 +1,24 @@
+[
+    {
+        "question": "Mi lesz a dilatáció eredménye, ha a mátrixunk $$ \\begin{bmatrix} 0 & 0 & 1 & 0 & 0 \\\\ 0 & 1 & 1 & 1 & 0 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 0 & 1 & 1 & 1 & 0 \\\\ 0 & 0 & 1 & 0 & 0 \\end{bmatrix}$$, a struktúráló elemünk pedig $$\\begin{bmatrix} 0 & 1 & 0 \\\\ 1 & \\color{red}{1} & 1 \\\\ 0 & 1 & 0 \\end{bmatrix}$$ ",
+        "type": "many_choice",
+        "answer_cols": 3,
+        "answers": [
+            {
+                "answer": "$$ \\begin{bmatrix} 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\end{bmatrix}$$",
+                "correct": false,
+                "feedback": "Helytelen"
+            },
+            {
+                "answer": "$$ \\begin{bmatrix} 0 & 1 & 1 & 1 & 0 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 1 & 1 & 1 & 1 & 1 \\\\ 0 & 1 & 1 & 1 & 0 \\end{bmatrix}$$",
+                "correct": true,
+                "feedback": "Helyes"
+            },
+            {
+                "answer": "$$ \\begin{bmatrix} 1 & 1 & 0 & 1 & 1 \\\\ 1 & 0 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 & 0 \\\\ 1 & 0 & 0 & 0 & 1 \\\\ 1 & 1 & 0 & 1 & 1 \\end{bmatrix}$$",
+                "correct": false,
+                "feedback": "Helytelen"
+            }
+        ]
+    }
+]

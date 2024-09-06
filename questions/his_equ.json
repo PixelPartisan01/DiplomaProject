@@ -1,0 +1,36 @@
+[ 
+    {
+        "question": "Igaz vagy Hamis? A hisztogram kiegyenlítés javítja a kép kontrasztját.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes"
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "Helytelen."
+            }
+        ]
+    },
+    {
+        "question": "Helyesen hívtuk-e meg a függvényt?<br><br> <center><code>cv2.equalizeHist([image])<code></center>",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "Helytelen."
+            },
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            }
+        ]
+    }
+]
