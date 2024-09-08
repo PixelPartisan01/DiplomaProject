@@ -1,6 +1,6 @@
 [ 
     {
-        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : $3 \\times 3$)? Kerekítsd az eredményt egész számra! $$ \\begin{matrix} 23 & 33 & 42 & 250 \\\\ 30 & 31 & 200 & 255 \\\\ 25 & 30 & \\color{red}{210} & 255 \\\\ 24 & 190 & 250 & 255 \\end{matrix} $$",       
+        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : 3times3)? Kerekítsd az eredményt egész számra! Misplaced &Misplaced &",       
         "type": "numeric",
         "answers": [
             {
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : $3 \\times 3$)? $$ \\begin{matrix} 23 & 33 & 42 & 250 \\\\ 30 & 31 & 200 & 255 \\\\ 25 & 30 & \\color{red}{210} & 255 \\\\ 24 & 190 & 250 & 255 \\end{matrix} $$",
+        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : 3times3)? Misplaced &Misplaced &",
         "type": "numeric",
         "answers": [
             {
