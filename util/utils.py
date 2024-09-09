@@ -8,7 +8,7 @@ import random
 import cv2
 import numpy as np
 import os
-
+from IPython import get_ipython
 
 def browse_images(self):
     window = tk.Tk()
@@ -36,6 +36,9 @@ def show_grayscale_image(self, image):
         plt.imshow(image, cmap='Greys_r')
     else:
         raise ValueError('Image is not converted to graycsale.')
+
+def end(self):
+    pass
 
 
 def start(main):
