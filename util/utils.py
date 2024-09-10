@@ -37,9 +37,6 @@ def show_grayscale_image(self, image):
     else:
         raise ValueError('Image is not converted to graycsale.')
 
-def end(self):
-    pass
-
 
 def start(main):
     button = widgets.Button(
@@ -59,9 +56,17 @@ def start(main):
 
     return box
 
+def convert_kernel_for_visualization(kernel):
+
+    visual_kernel = np.zeros((kernel.shape[0], kernel.shape[1], 3), dtype=np.uint8)
+    visual_kernel[kernel == -1] = [0, 0, 0] # csupán a megjelenítés miatt kell.
+    visual_kernel[kernel ==  0] = [127, 127, 127]
+    visual_kernel[kernel ==  1] = [255, 255, 255]
+    
+    return visual_kernel
 
 def generate_input():
-    kernel = np.array([[0 for x in range(3)] for y in range(3)], dtype=np.uint8)
+    kernel = np.array([[0 for x in range(3)] for y in range(3)], dtype=np.int16)
     input_image = np.array([[0 for x in range(8)] for y in range(8)], dtype=np.uint8)
 
     root = tk.Tk()
@@ -109,8 +114,6 @@ def generate_input():
             button.grid(row=row, column=col)
 
     root.mainloop()
-
-    #kernel = np.uint8(kernel)
 
     return input_image, kernel
 
