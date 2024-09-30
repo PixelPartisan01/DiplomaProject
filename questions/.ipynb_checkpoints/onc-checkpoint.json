@@ -1,0 +1,53 @@
+[ 
+    {
+        "question": "Igaz vagy Hamis? Ha nyitás után dilatációt hajtunk végre, vagy fordítva, akkor visszakapjuk az eredeti képet.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "A két művelet egymásnak nem inverze."
+            },
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? A dilatáció után végrehajtott erózió műveletét hívjuk nyitásnak.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": false,
+                "feedback": "A dilatálás után végrehajtott erózió műveletét zárásnak hívjuk."
+            },
+            {
+                "answer": "Hamis",
+                "correct": true,
+                "feedback": "Helyes."
+            }
+        ]
+    },
+    {
+        "question": "Igaz vagy Hamis? Zárásnak nem a kétszer egymás után elvégzett dilatációt nevezzük.",
+        "type": "many_choice",
+        "answer_cols": 2,
+        "answers": [
+            {
+                "answer": "Igaz",
+                "correct": true,
+                "feedback": "Helyes."
+            },
+            {
+                "answer": "Hamis",
+                "correct": false,
+                "feedback": "A nyitás és zárás a dilatáció és az erózió meghatározott sorrendben történő elvégzése."
+            }
+        ]
+    }
+]
