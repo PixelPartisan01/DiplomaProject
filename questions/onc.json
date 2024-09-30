@@ -1,6 +1,6 @@
 [ 
     {
-        "question": "Igaz vagy Hamis? ",
+        "question": "Igaz vagy Hamis? Ha nyitás után dilatációt hajtunk végre, vagy fordítva, akkor visszakapjuk az eredeti képet.",
         "type": "many_choice",
         "answer_cols": 2,
         "answers": [
