@@ -17,7 +17,7 @@
         ]
     },
     {
-        "question": "Minek a jele az omega",
+        "question": "Minek a jele az $\\omega$",
         "type": "many_choice",
         "answer_cols": 3,
         "answers": [
@@ -44,22 +44,22 @@
         "answer_cols": 2,
         "answers": [
             {
-                "answer": "H(u,v)=frac11+left(fracomegarho(u,v)right)2n",
+                "answer": "$H(u,v) = \\frac{1}{1 + \\left(\\frac{\\omega}{\\rho(u,v)} \\right)^{2n}}$",
                 "correct": true,
                 "feedback": "Helyes."
             },
             {
-                "answer": "H(u,v)=frac11+left(fracrho(u,v)omegaright)2n",
+                "answer": "$H(u,v)= \\frac{1}{1+ \\left( \\frac{\\rho(u,v)}{\\omega} \\right)^{2n}}$",
                 "correct": false,
                 "feedback": "Butterworth, de ezt a képletet az aluláteresztő szűrőhöz használjuk."
             },
             {
-                "answer": "H(u,v)=1−efrac−rho2(u,v)2omega2",
+                "answer": "$H(u,v) = 1 − e^{\\frac{− \\rho^{2}(u,v)}{2 \\omega ^{2}}}$",
                 "correct": false,
                 "feedback": "Felüláteresztő, de nem Butterwort szűrő."
             },
             {
-                "answer": "H(u,v)=efrac−rho2(u,v)2omega2",
+                "answer": "$H(u,v) = e^{ \\frac{− \\rho ^{2}(u,v)}{2 \\omega^{2}}}$",
                 "correct": false,
                 "feedback": "Nem is Butterwort és nem is felüláteresztő. ( ͡° ͜ʖ ͡°) " 
             }

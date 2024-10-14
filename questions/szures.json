@@ -1,17 +1,17 @@
 [ 
     {
-        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : 3times3)? Kerekítsd az eredményt egész számra! Misplaced &Misplaced &",       
+        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : 3 \times 3)? Kerekítsd az eredményt egész számra! $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",       
         "type": "numeric",
         "answers": [
             {
                 "type": "value",
-                "value": 186,
+                "value": 83,
                 "correct": true,
                 "feedback": "Helyes."
             },
             {
                 "type": "range",
-                "range": [186.1, 186.9],
+                "range": [83.1, 83.9],
                 "correct": false,
                 "feedback": "Elfelejtettél kerekíteni!"
             },
@@ -22,12 +22,12 @@
         ]
     },
     {
-        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a pirossal jelzett pixelértékhez (ablakméret : 3times3)? Misplaced &Misplaced &",
+        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : 3times3)? $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",
         "type": "numeric",
         "answers": [
             {
                 "type": "value",
-                "value": 210,
+                "value": 120,
                 "correct": true,
                 "feedback": "Helyes."
             },
