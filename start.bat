@@ -1,1 +1,1 @@
-py -m jupyter lab ./Project.ipynb
+py -m jupyter notebook ./Project.ipynb
