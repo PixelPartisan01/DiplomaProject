@@ -1,6 +1,6 @@
 [ 
     {
-        "question": "Hány szürke árnyalatot használ az a digitális kép, ahol m=4?",
+        "question": "Hány szürke árnyalatot használ az a digitális kép, ahol $m=4$?",
         "type": "numeric",
         "precision": 1,
         "answers": [
@@ -12,12 +12,12 @@
             },
             {
                 "type": "default",
-                "feedback": "m=4 esetén a kép 4 féle szürke árnyalatból épül fel."
+                "feedback": "$m=4$ esetén a kép $4$ féle szürke árnyalatból épül fel."
             }
         ]
     },
     {
-        "question": "Igaz vagy Hamis: A bináris képek csak 2 színárnyalatot használnak.",
+        "question": "Igaz vagy Hamis: A bináris képek csak $2$ színárnyalatot használnak.",
         "type": "many_choice",
         "answer_cols": 2,
         "answers": [
