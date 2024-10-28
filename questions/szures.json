@@ -1,6 +1,6 @@
 [ 
     {
-        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : 3 \times 3)? Kerekítsd az eredményt egész számra! $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",       
+        "question": "Milyen új értéket fog hozzárendelni az <b>átlagoló</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : $ 3 \\times 3 $)? Kerekítsd az eredményt egész számra! $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",       
         "type": "numeric",
         "answers": [
             {
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : 3times3)? $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",
+        "question": "Milyen új értéket fog hozzárendelni a <b>medián</b> szűrő a <font color='red'>pirossal</font> jelzett pixelértékhez (ablakméret : $ 3 \\times 3 $)? $$ \\begin{bmatrix} 12 & 120 & 121 \\\\ 18 & \\color{red}{100} & 120 \\\\ 15 & 120 & 125  \\end{bmatrix} $$",
         "type": "numeric",
         "answers": [
             {
